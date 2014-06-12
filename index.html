@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Oppsummering 2013</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+        <link rel="stylesheet" href="css/theme/mod.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="#253939" class="orange">
+					<h1>Faggruppe frontend</h1>
+					<h2>Oppsummering 2013</h2>
+
+				</section>
+
+				<section data-background="#558188" class="beige">
+                    <header>
+                        <h2>1. Testing og testdrevet utvikling</h2>
+                        <span>17. januar 2013</span>
+                    </header>
+                    <p>Testdrevet livedemo av en enkel applikasjon for filmsøk</p>
+                    <p>Fokus på testing av frontend-kode, med demonstrasjon av aktuelle bibliotek</p>
+                    <ul>
+                        <li>Knockout for MVVM</li>
+                        <li>Jasmine som BDD-rammeverk</li>
+                        <li>Buster som test runner</li>
+                        <li>Sinon for timer og Ajax-kall</li>
+                        <li>Less</li>
+                        <li>Boostrap for layout</li>
+                    </ul>
+				</section>
+                <section data-background="#558188" class="beige">
+                    <h3>Hvor er vi i dag?</h3>
+                    <ul>
+                        <li>Knockout brukes på flere interne prosjekter (R&S, RR, Nifes)</li>
+                        <li>Jasmine brukes også, og er sammen med Mocha kanskje de 2 mest populære testbibliotek for øyeblikket</li>
+                        <li>Sinon er absolutt fortsatt aktuelt</li>
+                        <li>Buster virker dødt. Bruk heller Karma</li>
+                        <li>Noen som bruker Less/preprosessering?</li>
+                        <li>Boostrap brukes på flere interne prosjekter</li>
+                    </ul>
+                </section>
+
+				<section data-background="#5FA292" class="yellow">
+                    <header>
+                        <h2>2. Git</h2>
+                        <span>11. mars 2013</span>
+                    </header>
+
+					<p>
+						Introduksjon til Git med ekstern foredragsholder, Thomas Pedersen fra Miles
+					</p>
+                    <ul>
+                        <li>Rask intro til Git</li>
+                        <li>Opprette et repo og gjøre en enkel commit</li>
+                        <li>Git internals</li>
+                        <li>Branching</li>
+                        <li>Merging</li>
+                        <li>Rebase</li>
+                        <li>Feilsøking (Git-logg</li>
+                        <li>Remotes</li>
+                        <li>Pull requests (Github)</li>
+                    </ul>
+				</section>
+
+                <section data-background="#5FA292" class="yellow">
+                    <h3>Hvor er vi i dag?</h3>
+                    <p>Vi har kommet i gang med Evry-Bergen på Github, alle skal ha fått tilgang der. Vi har migrert all kode over dit, og all nyutvikling
+                    foregår med Git som versjonskontrollsystem</p>
+
+                </section>
+                <section data-background="#ff9c5f" class="turquoise">
+                    <header>
+                        <h2>3. Phonegap og internprosjekt</h2>
+                        <span>9. april 2013</span>
+                    </header>
+                    <p>Fagmøte sammen med mobil der Phonegap var hovedtemaet, etterfulgt av idémyldring til internprosjektet Tickle</p>
+                </section>
+
+                <section data-background="#ff9c5f" class="turquoise">
+                    <h3>Hvor er vi i dag?</h3>
+                    <p>Phonegap brukes i aller høyeste grad, både hos kunder og internt, senest i prosjektet for Hansa Borg</p>
+                    <p>Timeregistreringsprosjektet ble besluttet å legge død på faglederforum før jul</p>
+                </section>
+
+                <section data-background="#ff8b6c" class="beige">
+                    <header>
+                        <h2>4. Grunt og 60fps</h2>
+                        <span>18. juni 2013</span>
+                    </header>
+                    <p>Bygging av frontendkode med Grunt.js med kort introduksjon og demonstrasjon av vanlige tasker. Bower som pakkehåndterer for bibliotek</p>
+                    <p>Ytelsesforbedring og profilering, 60 frames per second. Opprinnelig plan var å se "Gone in 60fps", men vi endte opp med en
+                    annen video p.g.a. at den ikke var publisert ennå</p>
+                    <p></p>
+                </section>
+
+                <section data-background="#ff8b6c" class="beige">
+                    <h3>Hvor er vi i dag?</h3>
+                    <p>Grunt brukes internt (Nifes) og hos kunder (blant annet DNB). Grunt er etablert som en de facto-standard for bygging,
+                    og miljøet rundt er stort og aktivt.</p>
+                    <p>Prinsippene med 60fps er aktuelle, og blant annet Hallvar har vel brukt dette til ytelsesforbedring på RR</p>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <header>
+                        <h2>5. Tilgjengelighet</h2>
+                        <span>19. september 2013</span>
+                    </header>
+                    <p>Eksternt foredrag i regi av Funka.nu om krav for å oppfylle den nye tilgjengelighetsloven</p>
+                    <p></p>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h3>Hvor er vi i dag?</h3>
+                    <p>Har høyt fokus på dette på Nifes-prosjektet</p>
+                    <p>Håper at folk har fokus på dette også ute hos kunder! :)</p>
+                </section>
+
+                <section data-background="#558188" class="beige">
+                    <header>
+                        <h2>6. Testing</h2>
+                        <span>16. oktober 2013</span>
+                    </header>
+                    <p>Fokus på testing og testdrevet utvikling igjen, denne gang med koding i grupper. Case var å lage en liten del av
+                    timeregistreringsappen</p>
+                    <ul>
+                        <li>Karma som test runner</li>
+                        <li>Jasmine som BDD-rammeverk</li>
+                        <li>Sinon for Ajax</li>
+                        <li>Istanbul for testdekning</li>
+                    </ul>
+                </section>
+
+                <section data-background="#558188" class="beige">
+                    <h3>Hvor er vi i dag?</h3>
+                    <p>Vi bruker en tilsvarende stakk for flere av interprosjektene våre, blant annet Nifes og RR</p>
+                    <p>Tilsvarende stakk er også i bruk hos kunder, for eksempel hos DNB, og er et godt og trygt alternativ dersom testing
+                    av frontend kommer opp i kundeoppdrag</p>
+                </section>
+
+                <section data-background="#5FA292" class="yellow">
+                    <header>
+                        <h2>7. Parrot AR.Drone og nodecopter</h2>
+                        <span>27. november 2013</span>
+                    </header>
+                    <p>Programmering av drone ved hjelp av node.js, i samarbeid med mobilfaggruppen</p>
+                    <video src="img/VID_20131127_173936.mpeg" controls></video>
+                </section>
+
+                <section data-background="#5FA292" class="yellow">
+                    <h3>Hvor er vi i dag?</h3>
+                    <p>Dronen trenger nok et nytt innendørsskall</p>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h1>Faggruppe frontend</h1>
+                    <h2>Planer 2014</h2>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h3>Fagmøter</h3>
+                    <ul>
+                        <li>Fagmøte i februar, siste halvdel</li>
+                        <li>Fagtinget 14. mars</li>
+                        <li>Felles fagkveld for alle faggrupper 3. april</li>
+                        <li>Fagmøte i mai/juni</li>
+                    </ul>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h2>WebGL, WebSocket og Node.js</h2>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <img width="320" height="280" src="img/durandal.jpeg" >
+                    <img width="250" height="280" src="img/angular.png" >
+                    <img width="300" height="280" src="img/dojo.jpeg" >
+                    <img width="280" height="280" src="img/ember.jpeg" >
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h3>Mer om testing og erfaringer</h3>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h3>EcmaSCRIPT 6 (Harmony)</h3>
+                </section>
+
+                <section data-background="#253939" class="orange">
+                    <h3>Mobilrammeverk</h3>
+                    <ul>
+                        <li>Sencha</li>
+                        <li>Lungo</li>
+                        <li>Kendo</li>
+                        <li>IgniteUI</li>
+                        <li>ChocolateUI</li>
+                    </ul>
+                </section>
+                <section data-background="#253939" class="orange">
+                    <h3>Nye ting</h3>
+                    <ul>
+                        <li>Web Components</li>
+                        <li>Flexbox</li>
+                        <li>React</li>
+                        <li>Gulp</li>
+                        <li>Mimosa</li>
+                        <li>...</li>
+
+                    </ul>
+                </section>
+                <section data-background="#253939" class="orange">
+                    <h3>Profilering, ytelse og bruk av utviklerkonsoll</h3>
+
+                </section>
+                <section data-background="#253939" class="orange">
+                    <h3>Eksterne foredragsholdere</h3>
+
+                </section>
+
+                <section data-background="#558188" class="beige">
+                    <h3>Booster-konferanse!</h3>
+                </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                backgroundTransition: 'slide',
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

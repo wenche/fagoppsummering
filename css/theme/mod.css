@@ -1,0 +1,44 @@
+.reveal header h2,
+.reveal header h3 {
+    margin: 0;
+}
+
+.reveal header {
+    margin-bottom: 20px;
+}
+
+.reveal .orange h1,
+.reveal .orange h2,
+.reveal .orange h3,
+.reveal .orange span,
+.reveal .orange p,
+.reveal .orange li{
+    color: #ff9c5f;
+}
+
+.reveal .beige h1,
+.reveal .beige h2,
+.reveal .beige h3,
+.reveal .beige span,
+.reveal .beige p,
+.reveal .beige li {
+    color: #FEEED5;
+}
+
+.reveal .yellow h1,
+.reveal .yellow h2,
+.reveal .yellow h3,
+.reveal .yellow span,
+.reveal .yellow p,
+.reveal .yellow li {
+    color: #FEE2A0;
+}
+
+.reveal .turquoise h1,
+.reveal .turquoise h2,
+.reveal .turquoise h3,
+.reveal .turquoise span,
+.reveal .turquoise p,
+.reveal .turquoise li {
+    color: #60a193;
+}
